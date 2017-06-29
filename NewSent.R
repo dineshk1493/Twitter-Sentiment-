@@ -7,7 +7,7 @@ library(base64enc)
 library(ggplot2)
 library(plyr)
 library(stringr)
-setup_twitter_oauth(consumer_key='XHZ4szNVgYWZDQy0khLuWlwsJ',consumer_secret='l3Q2wFiXsf8jZxyvzN8a52vKTd9RbNAjPPvBihd65OrQ1gzzlz', access_token= '221334395-z9UuCEtEeEBP1xuR6sAnEBHbYvcCyvtWAOU7COCq' , access_secret='dITJkVcOfHyrjvMOsvBaqZEeTZ1gj911OLzmUWN8o5Gb9')
+setup_twitter_oauth(consumer_key='insert your key here',consumer_secret='insert your key here', access_token= 'insert your key here' , access_secret='insert your key here')
 
 cashless_tweets = searchTwitter('Cashless India', n=2000)  # keyword returns required no of tweets
 
